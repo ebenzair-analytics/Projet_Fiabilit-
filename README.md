@@ -35,23 +35,8 @@ L’objectif principal était d’évaluer la performance opérationnelle (MTBF,
 - Suppression des doublons et vérification de la cohérence des valeurs  
 - Importation dans **Power BI** et typage des colonnes  
 
-### 2️⃣ Création des indicateurs dans Power BI (measures DAX)
-```DAX
-MTBF_Moyen = AVERAGE('Pannes'[Heures_Fonctionnement])
-Nb_Pannes = COUNTROWS('Pannes')
-Cout_Total = SUM('Pannes'[Cout_Maintenance])
-Cout_Moyen = AVERAGE('Pannes'[Cout_Maintenance])
 
-# 🧠 Tableau de bord Maintenance Industrielle – Analyse des Pannes
-
-## 🎯 Objectif
-Ce projet vise à concevoir un **dashboard interactif Power BI** permettant d’analyser la fiabilité des équipements et d’optimiser la stratégie de maintenance à partir d’un dataset simulé.  
-
-L’objectif est de fournir une vision claire et dynamique des **indicateurs clés (KPI)** tels que le **MTBF**, le **nombre de pannes**, et les **coûts de maintenance**.
-
----
-
-## 🧩 3️⃣ Construction des visualisations
+### 2️⃣ Construction des visualisations
 
 ### 📋 Cartes KPI
 - **MTBF (Mean Time Between Failures)**  
