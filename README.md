@@ -91,8 +91,8 @@ L’objectif principal était d’évaluer la performance opérationnelle (MTBF,
 | **Data storytelling** | Présentation claire et interprétation des résultats |
 | **Excel** | Création et structuration du dataset simulé |
 
-📂 Projet_Fiabilite
-│
+## 📂 Projet_Fiabilité
+
 ├── Projet_Fiabilite_Dataset.xlsx     # Données sources simulées  
 ├── Dashboard_Fiabilite.pbix          # Fichier Power BI  
 ├── screenshot_dashboard.png          # Aperçu du tableau de bord  
